@@ -1,0 +1,51 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    background-color: rgb(249, 255, 184);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+p {
+    padding: 0 4rem;
+    font-size: 1.5rem;
+}
+
+.objs,
+#named-objs 
+{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#named-objs {
+    padding-bottom: 5rem;
+}
+
+.obj,
+.named-obj
+{
+    min-width: 10rem;
+    min-height: 15rem;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem rgb(74, 74, 74);
+}
+
