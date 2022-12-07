@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Searching Algorithms: Linear Search</h1>
+    <p>Linear Search is a Searching Algorithm which iterates over the given list of objects in a array. When it meets the requried condition it will break the iteration look and return the desired object!</p>
+    <br>
+    <p>Let's look at an example of a given array with 5 objects and linear searching through that array and finding the desired object.</p>
+    
+    <div class="objs">
+        <div class="obj">Name: Amos <br>Age: 20 <br>Index: 0</div>
+        <div class="obj">Name: Clover <br>Age: 24 <br>Index: 1</div>
+        <div class="obj">Name: Simran <br>Age: 22 <br>Index: 2</div>
+        <div class="obj">Name: Raj <br>Age: 23 <br>Index: 3</div>
+        <div class="obj">Name: Aaron <br>Age: 23 <br>Index: 4</div>
+    </div>
+    
+    <br>
+    <br>
+    <p>So here we have an array with 5 objects and let's search for a desired object, let's say Raj!</p>
+    <p>The linear search will start from the beginning i.e. the first object "Amos" and check if it's equal to "Raj". If yes! then it'll return the object at the given index.</p>
+    <br>
+    <p>So the linar search will keep progressing until it reaches the object at index 3 where in the search condition for "Raj" is true. Once the condition is true it returns the object at index 3.</p>
+    <br>
+    <br>
+    
+    Enter Name: <input type="text" id="input">
+    <button id="make-card">Make Card</button>
+    Search Name: <input type="text" id="search">
+    <button id="search-card">Search Card</button>
+    <div id="named-objs"></div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
